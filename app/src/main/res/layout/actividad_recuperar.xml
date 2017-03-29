@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/actividad_recuperar"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.ActividadRecuperar"
+    android:background="#38383e"
+    android:backgroundTintMode="?attr/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"
+            android:layout_marginTop="20dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Recuperar Contraseña"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:textStyle="bold"
+            android:layout_marginTop="60dp"/>
+
+        <EditText
+            android:drawableLeft="@drawable/email2"
+            android:textColorHint="@color/text"
+            android:textColor="@color/text"
+            android:hint=" Ingrese su correo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtusuario"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp"
+            android:textColorLink="@color/accentColor" />
+
+        <Button
+            android:text="Recuperar"
+            android:background="@color/primaryColor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recuperar"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="30dp"
+            android:textColorLink="@color/accentColor" />
+
+    </LinearLayout>
+
+</LinearLayout>

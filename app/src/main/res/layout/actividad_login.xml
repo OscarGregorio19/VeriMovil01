@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.Login"
+    android:background="#38383e"
+    android:backgroundTintMode="?attr/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:id="@+id/content_main">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Iniciar sesión"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+
+        <EditText
+            android:drawableLeft="@drawable/user"
+            android:textColorHint="@color/text"
+            android:textColor="@color/text"
+            android:hint=" Nombre de usuario"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:id="@+id/txtusuario"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp"
+            android:textColorLink="@color/accentColor" />
+
+        <EditText
+            android:drawableLeft="@drawable/pass"
+            android:textColorHint="@color/text"
+            android:textColor="@color/text"
+            android:hint=" Contraseña"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@+id/txtpassword"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:textColorLink="@color/accentColor" />
+
+        <Button
+            android:text="Ingresar"
+            android:background="@color/primaryColor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ingresar"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="15dp"
+            android:textColorLink="@color/accentColor" />
+
+        <TextView
+            android:id="@+id/recuperar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="¿Olvidaste tu contraseña?"
+            android:textColor="@color/text"
+            android:textColorLink="@color/accentColor" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="-------------------------------- o --------------------------------"
+            android:gravity="center"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/registrar"
+            android:text="Registrarse"
+            android:textColor="@color/text"
+            android:textColorLink="@color/accentColor"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:clickable="true"/>
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_inicio"
+            android:checked="true"
+            android:icon="@drawable/home"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/item_verificar"
+            android:icon="@drawable/naturaleza"
+            android:title="Verificar" />
+        <item
+            android:id="@+id/item_catalogo"
+            android:icon="@drawable/catalogo"
+            android:title="Catalogo" />
+    </group>
+
+    <item android:title="Cuenta Usuario">
+        <menu>
+            <item
+                android:id="@+id/item_cuenta"
+                android:icon="@drawable/user2"
+                android:title="Mi Cuenta" />
+        </menu>
+    </item>
+
+</menu>

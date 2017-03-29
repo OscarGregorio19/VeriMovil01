@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+    <ImageView
+        android:id="@+id/miniatura_misautos"
+        android:layout_width="match_parent"
+        android:layout_height="190dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/accentColor"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_user"
+            android:text="Id"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead.Inverse"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/marca_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marca"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead.Inverse"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/modelo_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modelo"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead.Inverse"/>
+
+        <TextView
+            android:id="@+id/version_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead.Inverse"/>
+
+        <TextView
+            android:id="@+id/ano_modelo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ano modelo"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead.Inverse"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</LinearLayout>
